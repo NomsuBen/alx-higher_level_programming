@@ -39,7 +39,6 @@ Checking for integer == 0:
 	  >>> b.integer_validator("integer", 0)
 	  Traceback (most recent call last):
           ...
-
           ValueError: integer must be greater than 0
 
 Checking for integer < 0;
@@ -88,7 +87,7 @@ Checking for non-integer types:
 	  >>> b.integer_validator("bytes", b"bytes")
           Traceback (most recent call last):
           ...
-          TypeError: bytes must be an integer
+          TypeError: bytes must be an intege
 	  >>> b.integer_validator("bytearrays", bytearray(b"bytes"))
           Traceback (most recent call last):
           ...
