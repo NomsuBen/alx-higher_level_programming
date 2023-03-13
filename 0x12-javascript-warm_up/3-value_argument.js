@@ -1,2 +1,2 @@
 #!/usr/bin/node
-myVar = 333;
+console.log(process.argv[2] ? process.argv[2] : 'No argument');
